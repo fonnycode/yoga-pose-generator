@@ -1,0 +1,14 @@
+body {
+    max-width: 600px;
+    background-color: antiquewhite;
+    text-align: center;
+    border: 1px solid brown;
+    border-radius: 30px;
+    margin: 90px auto;
+    padding: 120px;
+}
+
+footer a {
+    text-decoration: none;
+    color: green;
+}
