@@ -1,7 +1,12 @@
-body {
-    max-width: 600px;
-    background-color: antiquewhite;
+body,
+footer {
     text-align: center;
+    background-color: antiquewhite;
+}
+
+header {
+    text-align: center;
+    max-width: 600px;
     border: 1px solid brown;
     border-radius: 30px;
     margin: 90px auto;
@@ -9,6 +14,7 @@ body {
 }
 
 footer a {
+
     text-decoration: none;
     color: green;
 }
