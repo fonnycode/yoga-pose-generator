@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Yoga Poses generator</title>
 </head>
@@ -13,12 +14,13 @@
     <header>
         <h1> Welcome to Ai Yoga Generator</h1>
         <form id="box-generator">
-            <input type="text" placeholder="Type a yoga pose" autofocus required autocomplete="off" class="boxInput" />
+            <input type="text" placeholder="Type a yoga pose" autofocus required autocomplete="off" class="boxInput"
+                id="user-input-generator" />
             <input type="submit" class="submitButton" />
         </form>
-        <h2 id="pose-generator">
-           
-        </h2>
+        <div id="pose-generator" class="pose">
+
+        </div>
     </header>
 
     <footer>This Ai Project is coded by Fonny Chandra, is open-sourced on <a
