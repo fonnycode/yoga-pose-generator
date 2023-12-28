@@ -13,14 +13,15 @@
 <body>
     <header>
         <h1> Welcome to Ai Yoga Generator</h1>
-        <form id="box-generator">
-            <input type="text" placeholder="Type a yoga pose" autofocus required autocomplete="off" class="boxInput"
-                id="user-input-generator" />
-            <input type="submit" class="submitButton" />
-        </form>
-        <div id="pose-generator" class="pose">
-
+        <div class="formContainer">
+            <form id="box-generator">
+                <input type="text" placeholder="Type any yoga related topic" autofocus required autocomplete="off"
+                    class="boxInput" id="user-input-generator" />
+                <input type="submit" class="submitButton" />
+            </form>
+            <div class="suggestion">i.e: Breathing exercise, Tadasana, Balancing pose </div>
         </div>
+        <div id="pose-generator" class="pose hidden"></div>
     </header>
 
     <footer>This Ai Project is coded by Fonny Chandra, is open-sourced on <a
