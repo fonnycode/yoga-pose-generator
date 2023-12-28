@@ -5,22 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/index.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Yoga Poses generator</title>
 </head>
 
 <body>
     <header>
         <h1> Welcome to Ai Yoga Generator</h1>
-        <form>
+        <form id="box-generator">
             <input type="text" placeholder="Type a yoga pose" autofocus required autocomplete="off" class="boxInput" />
             <input type="submit" class="submitButton" />
         </form>
-        <h2>
-            Example: <br />
-            Q: Yoga breathing to relax <br />
-            A: Alternate Nostril Breathing (Nadi Shodhana) - Balances the energy in the body, calms the mind, and reduces
-            stress and
-            anxiety.
+        <h2 id="pose-generator">
+           
         </h2>
     </header>
 
